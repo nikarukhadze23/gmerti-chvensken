@@ -1,0 +1,135 @@
+@media (width>768px){
+    .book {
+        background-image: url(booktab.svg);
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 40.5px;
+    }
+    header {
+        column-gap: 460px;
+    }
+    input[type=text]{
+        width: 689px;
+        height: 64px;
+    }
+    .textInput {
+        text-align:bottom 0px;padding-left:60px;
+    }
+    .inpDiv {
+        column-gap: 333px;
+        row-gap: 20px;
+    }
+    .indivh1 {
+        font-size: 64px;
+    }
+    .indivh5 {
+        font-size: 24px;
+    }
+    .audioImg {
+        background-image: url(audiotablet.svg);
+        width: 75px;
+        height: 75px;
+    }
+    .line2 {
+        grid-area: ori;
+       background-image: url(nounlinetab.svg);
+       background-repeat: no-repeat;
+       width: 590px;
+       height: 1px;
+       margin-left: -80px;
+    }
+    .nAmh1 {
+        font-size: 24px;
+    }
+    .nAmh2 {
+        font-size: 20px;
+        margin-left: -570px;
+    }
+    .nAmh3 {
+        width: 641px;
+        font-size: 18px;
+    }
+    .nAmh4 {
+        width: 641px;
+        font-size: 18px;
+    }
+    .nAmh5 {
+        width: 641px;
+        font-size: 18px;
+    }
+    .nAmh6 {
+        font-size: 20px;
+    }
+    .nAmp1 {
+        font-size: 20px;
+        margin-left: -300px;
+    }
+    .verbsh1 {
+        font-size: 24px;
+    }
+    .line3 {
+        width: 608px;
+        height: 1px;
+    }
+    .verbsh2 {
+        font-size: 20px;
+        margin-left: -570px;
+    }
+    .verbsh3 {
+        font-size: 20px;
+        width: 641px;
+        flex-shrink: 0;
+    }
+    .verbsh4 {
+        font-size: 20px;
+        width: 641px;
+        flex-shrink: 0;
+    }
+    .line4 {
+        width: 688px;
+        height: 1px;
+        margin-top: 20px;
+    }
+    .srch1 {
+        margin-left: -580px;
+        margin-top: 20px;
+    }
+    .aClass {
+        margin-top: -16px;
+        margin-left: -200px;
+    }
+}
+
+
+@media (width>1440px) {
+    input[type=text]{
+        width: 736px;
+        height: 64px;
+    }
+    header {
+        column-gap: 520px;
+    }
+    .nAmh3 {
+        width: 689px;
+    }
+    .nAmh4 {
+        width: 689px;
+    }
+    .nAmh5 {
+        width: 689px;
+    }
+    .verbsh2 {
+        font-size: 20px;
+        margin-left: -570px;
+    }
+    .verbsh3 {
+        font-size: 20px;
+        width: 689px;
+        flex-shrink: 0;
+    }
+    .verbsh4 {
+        font-size: 20px;
+        width: 689px;
+        flex-shrink: 0;
+    }
+}
